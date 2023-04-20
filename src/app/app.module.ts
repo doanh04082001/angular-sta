@@ -17,7 +17,7 @@ import { ShippingComponent } from './shipping/shipping.component';
     BrowserModule,
     ReactiveFormsModule,
     HttpClientModule,
-    // đưuòng dẫn đến các componet
+    // đường dẫn url và các component ứng với route đó
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },
