@@ -12,6 +12,7 @@
   <h4 *ngIf="product.description">Mô tả: {{ product.description }}</h4>
   <button type="button" (click)="share()">Share</button>
 
+  <!-- truyền vào app-product-alert product -->
   <app-product-alerts [product]="product" (notify)="onNotify()">
   </app-product-alerts>
 </div>
